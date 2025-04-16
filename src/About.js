@@ -3,11 +3,6 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Certifs from "./Certifs.js";
 
-// Importation des logos
-import gamesLogo from "./games.png";
-import techLogo from "./tech.png";
-import sportLogo from "./sport.png";
-
 function About() {
   useEffect(() => {
     // Scroll automatiquement tout en haut de la page
@@ -79,8 +74,8 @@ function About() {
               {/* Image avec l'effet glitch */}
               <div className="relative w-48 h-48 rounded-full border-4 border-teal-400 shadow-lg object-cover glitch-container">
                 <img
-                  src="/img/photo.png"
-                  alt="Lucas Djavid"
+                  src={`${process.env.PUBLIC_URL}/img/photo.png`}
+                  alt="Photo Profil"
                   className="absolute inset-0 w-full h-full rounded-full object-cover glitch-img"
                 />
               </div>
@@ -367,7 +362,7 @@ function About() {
             >
               <div className="flex justify-center mb-4">
                 <img
-                  src={gamesLogo}
+                  src={`${process.env.PUBLIC_URL}/img/games.png`}
                   alt="Jeux vidéos"
                   className="w-16 h-16 object-contain"
                 />
@@ -395,7 +390,7 @@ function About() {
             >
               <div className="flex justify-center mb-4">
                 <img
-                  src={techLogo}
+                  src={`${process.env.PUBLIC_URL}/img/tech.png`}
                   alt="Informatique"
                   className="w-16 h-16 object-contain"
                 />
@@ -423,7 +418,7 @@ function About() {
             >
               <div className="flex justify-center mb-4">
                 <img
-                  src={sportLogo}
+                  src={`${process.env.PUBLIC_URL}/img/sport.png`}
                   alt="Sport"
                   className="w-16 h-16 object-contain"
                 />

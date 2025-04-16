@@ -12,7 +12,7 @@ function Certifs() {
       title: "IBM AI Fundamentals",
       description:
         "Cette certification m'a appris les fondamentales de l'IA, comme les concepts de Machine Learning, Deep Learning et les différents algorithmes qui y sont associés.",
-      image: "/img/ibm.png",
+      image: `${process.env.PUBLIC_URL}/img/ibm.png`,
       link: "https://www.credly.com/badges/0e5b0fe7-45ae-4ca5-8a92-35dc7d4d0d7e/public_url",
       date: "March 13rd, 2025",
       linkName: "Voir le badge",
@@ -23,7 +23,7 @@ function Certifs() {
       title: "Cisco Introduction to Data Science",
       description:
         "Cette certification m'a appris la base de la Data, de l'analyse des données au traitement de celles-ci.",
-      image: "/img/cisco.png",
+      image: `${process.env.PUBLIC_URL}/img/cisco.png`,
       link: "https://www.credly.com/badges/9aa40a03-56f5-4db3-8bad-b7d8418d2916/public_url",
       date: "March 12nd, 2025",
       linkName: "Voir le badge",
@@ -34,7 +34,7 @@ function Certifs() {
       title: "Cisco Introduction to Modern AI",
       description:
         "Cette certification m'a initié à la manière dont les IA sont utilisés de nos jours, comme pour le traitement des images.",
-      image: "/img/cisco.png",
+      image: `${process.env.PUBLIC_URL}/img/cisco.png`,
       link: "https://www.credly.com/badges/fa992e58-6226-499d-ab5a-b5de238a818b/public_url",
       date: "March 12nd, 2025",
       linkName: "Voir le badge",

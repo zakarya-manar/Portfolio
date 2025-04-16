@@ -17,7 +17,7 @@ import { OrbitControls, PerspectiveCamera, useGLTF } from "@react-three/drei";
 
 // Modèle 3D de l'ordinateur
 function ComputerModel() {
-  const { scene } = useGLTF("/models/laptop.glb"); // Charger le modèle GLTF
+  const { scene } = useGLTF(`${process.env.PUBLIC_URL}/models/laptop.glb`); // Charger le modèle GLTF
   const laptopRef = useRef();
 
   // Animation : rotation continue du modèle
@@ -60,7 +60,7 @@ function App() {
   const createScrollLink = (section) => `/?scrollTo=${section}`;
 
   return (
-    <Router basename="/Portfolio">
+    <Router>
       <Element name="home"></Element>
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-gray-200">
         <ScrollToSection /> {/* Composant pour gérer le scroll automatique */}
