@@ -1,6 +1,7 @@
 import { Element } from "react-scroll"; // Pour gérer le scroll
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
+import Certifs from "./Certifs.js";
 
 // Importation des logos
 import gamesLogo from "./games.png";
@@ -332,6 +333,16 @@ function About() {
               </div>
             </motion.div>
           </div>
+        </motion.div>
+
+        {/* Section Certifications */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          className="mt-20 text-center"
+        >
+          <Certifs />
         </motion.div>
 
         {/* Section Centres d'intérêts */}

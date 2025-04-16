@@ -54,10 +54,9 @@ function Certifs() {
   return (
     <section id="certifs" className="bg-gray-900 py-20">
       <div className="container mx-auto px-4">
-        <h3 className="text-3xl font-bold text-teal-400 text-center mb-8 tracking-wider glitch-effect">
+        <h3 className="text-3xl font-semibold text-teal-400 mb-8 ">
           Mes certifications
         </h3>
-        <br />
 
         {/* Catégorie Développement */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

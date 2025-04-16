@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import { Element, scroller } from "react-scroll"; // Pour gérer le scroll
 import Projects from "./Projects.js";
-import Certifs from "./Certifs.js";
 import Contact from "./Contact.js";
 import About from "./About.js";
 import FloatingLogos from "./FloatingLogos.js";
@@ -83,18 +82,18 @@ function App() {
                 </li>
                 <li>
                   <Link
-                    to={createScrollLink("projects")}
-                    className="hover:text-teal-400"
-                  >
-                    Projets
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     to={createScrollLink("about")}
                     className="hover:text-teal-400"
                   >
                     À propos
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={createScrollLink("projects")}
+                    className="hover:text-teal-400"
+                  >
+                    Projets
                   </Link>
                 </li>
                 <li>
@@ -152,18 +151,14 @@ function App() {
                   </div>
                 </section>
 
-                {/* Section Certifications */}
-                <Element name="certifs">
-                  <Certifs />
+                {/* Section À propos */}
+                <Element name="about">
+                  <About />
                 </Element>
 
                 {/* Section Projets */}
                 <Element name="projects">
                   <Projects />
-                </Element>
-
-                <Element name="about">
-                  <About />
                 </Element>
 
                 {/* Section Contact */}
