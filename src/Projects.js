@@ -13,7 +13,7 @@ function Projects() {
       description:
         "App'Chat est une application de chat en temps réel, développée en HTML, CSS, JavaScript, AJAX, PHP et MySQL.",
       image: `${process.env.PUBLIC_URL}/img/appchat.png`,
-      link: "https://github.com/zakarya160/App-Chat",
+      link: "https://github.com/zakarya-manar/App-Chat",
       date: "Jan 19th, 2025",
       technologies: [
         {
@@ -42,7 +42,7 @@ function Projects() {
       description:
         "Ce projet est une calculatrice programmée en Java selon les bonnes pratiques de programmation et la gestion des erreurs.",
       image: `${process.env.PUBLIC_URL}/img/calculatrice.png`,
-      link: "https://github.com/zakarya160/Projets/tree/main/Calculatrice",
+      link: "https://github.com/zakarya-manar/Projets/tree/main/Calculatrice",
       date: "March 25th, 2024",
       technologies: [
         {
@@ -59,7 +59,7 @@ function Projects() {
       description:
         "Ce projet consiste à calculer les plus courts chemins pour le père noël selon des itinéraires.",
       image: `${process.env.PUBLIC_URL}/img/noel.png`,
-      link: "https://github.com/zakarya160/Projets/tree/main/Santa-Claus",
+      link: "https://github.com/zakarya-manar/Projets/tree/main/Santa-Claus",
       date: "March 13rd, 2024",
       technologies: [
         {

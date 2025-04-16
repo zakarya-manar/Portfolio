@@ -141,7 +141,7 @@ const Contact = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="https://github.com/zakarya160"
+                  href="https://github.com/zakarya-manar"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 hover:text-teal-400 transition"
