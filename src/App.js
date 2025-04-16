@@ -60,7 +60,7 @@ function App() {
   const createScrollLink = (section) => `/?scrollTo=${section}`;
 
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Element name="home"></Element>
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-gray-200">
         <ScrollToSection /> {/* Composant pour gérer le scroll automatique */}
