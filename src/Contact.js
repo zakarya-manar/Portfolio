@@ -186,7 +186,7 @@ const Contact = () => {
               </li>
               <li>
                 <a
-                  href="/CV.pdf"
+                  href={`${process.env.PUBLIC_URL}/CV.pdf`}
                   download
                   className="flex items-center space-x-3 hover:text-teal-400 transition"
                 >
