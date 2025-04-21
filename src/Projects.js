@@ -25,6 +25,10 @@ function Projects() {
           logo: "https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg",
         },
         {
+          name: "JavaScript",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+        },
+        {
           name: "PHP",
           logo: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
         },
