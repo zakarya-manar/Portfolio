@@ -46,11 +46,14 @@ function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-gray-300 mb-4 leading-relaxed"
             >
-              Je suis un développeur passionné par la technologie et
-              l'innovation. Avec une expérience dans le développement web, ainsi
-              qu'une passion pour le monde de la Data et la résolution de
-              problèmes algorithmiques, je cherche constamment à repousser les
-              limites de mes compétences.
+              La technologie me passionne depuis toujours, mais c’est dans le
+              monde de la Data que j’ai trouvé un vrai terrain de jeu
+              intellectuel. Comprendre, structurer et exploiter l’information
+              pour en extraire de la valeur, c’est ce qui me passionne dans ce
+              domaine. Après avoir acquis les bases du développement web, je me
+              suis naturellement tourné vers le monde de la Data et plus
+              particulièrement le Data Engineering, attiré par la complexité et
+              leur potentiel d’impact.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -58,8 +61,10 @@ function About() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-gray-300 leading-relaxed"
             >
-              Mon objectif est de continuer à apprendre et à contribuer à des
-              projets qui ont un impact significatif.
+              Je suis quelqu’un de curieux, autonome et déterminé à apprendre en
+              continu. Mon objectif est contribuer à des projets data concrets,
+              apprendre des meilleurs, et grandir dans un environnement où l'on
+              construit des solutions utiles et intelligentes.
             </motion.p>
           </div>
 
@@ -202,7 +207,7 @@ function About() {
               className="bg-gray-800 p-6 rounded-lg shadow-lg text-gray-300"
             >
               <h4 className="text-2xl font-semibold text-teal-400 mb-4">
-                Gestion de données
+                Langages de données
               </h4>
               <div
                 style={{
@@ -226,7 +231,7 @@ function About() {
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg"
-                  width={"50px"}
+                  width={"100px"}
                   height={"auto"}
                   alt="MySQL"
                 />
@@ -258,7 +263,7 @@ function About() {
                   alt="Ubuntu"
                 />
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg"
                   width={"50px"}
                   height={"auto"}
                   alt="MacOS"
@@ -321,9 +326,27 @@ function About() {
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Microsoft_Office_2013-2019_logo_and_wordmark.svg"
-                  width={"90px"}
+                  width={"120px"}
                   height={"auto"}
                   alt="MicrosoftOffice"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Android_Studio_icon_%282023%29.svg"
+                  width={"60px"}
+                  height={"auto"}
+                  alt="AndroidStudio"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg"
+                  width={"100px"}
+                  height={"auto"}
+                  alt="PHPMyAdmin"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/97/Talend_logo.svg"
+                  width={"120px"}
+                  height={"auto"}
+                  alt="Talend"
                 />
               </div>
             </motion.div>

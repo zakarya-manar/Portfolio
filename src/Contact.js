@@ -61,7 +61,9 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl font-bold text-center text-teal-400 mb-12 tracking-wide"
         >
-          Contactez-moi
+          <h3 className="text-3xl font-bold text-teal-400 text-center mb-8 tracking-wider glitch-effect">
+            Contactez-moi
+          </h3>
         </motion.h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

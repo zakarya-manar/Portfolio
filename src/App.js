@@ -123,7 +123,7 @@ function App() {
                         strings: [
                           "Zakarya Manar",
                           "Étudiant en informatique",
-                          "Débutant en Data Sciences",
+                          "Data Engineer en devenir ...",
                         ],
                         autoStart: true,
                         loop: true,
