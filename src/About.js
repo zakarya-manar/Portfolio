@@ -46,14 +46,15 @@ function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-gray-300 mb-4 leading-relaxed"
             >
-              La technologie me passionne depuis toujours, mais c’est dans le
-              monde de la Data que j’ai trouvé un vrai terrain de jeu
-              intellectuel. Comprendre, structurer et exploiter l’information
-              pour en extraire de la valeur, c’est ce qui me passionne dans ce
-              domaine. Après avoir acquis les bases du développement web, je me
-              suis naturellement tourné vers le monde de la Data et plus
-              particulièrement le Data Engineering, attiré par la complexité et
-              leur potentiel d’impact.
+              La technologie me passionne depuis toujours, et c’est dans
+              l’univers vaste de l’informatique que j’ai trouvé un véritable
+              terrain d’apprentissage et de créativité. Que ce soit en
+              développement, en systèmes, en data ou en intelligence
+              artificielle, j’aime comprendre les mécanismes, résoudre des
+              problèmes concrets et construire des solutions utiles. Au fil de
+              mon parcours, j’ai exploré différents domaines : le développement
+              web, l’analyse de données, l’automatisation ou encore
+              l’administration système.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -61,10 +62,11 @@ function About() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-gray-300 leading-relaxed"
             >
-              Je suis quelqu’un de curieux, autonome et déterminé à apprendre en
-              continu. Mon objectif est contribuer à des projets data concrets,
-              apprendre des meilleurs, et grandir dans un environnement où l'on
-              construit des solutions utiles et intelligentes.
+              Ce que j’apprécie particulièrement, c’est la diversité des défis
+              techniques et la possibilité de relier théorie et pratique à
+              travers des projets concrets. J’aime comprendre comment les choses
+              fonctionnent, creuser les détails, et progresser en construisant
+              des solutions qui allient efficacité, clarté et impact.
             </motion.p>
           </div>
 
@@ -257,10 +259,10 @@ function About() {
                   alt="Windows"
                 />
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/94/Ubuntu_logoib.svg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Tux_Classic_flat_look_3D.svg"
                   width={"50px"}
                   height={"auto"}
-                  alt="Ubuntu"
+                  alt="Linux"
                 />
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg"
